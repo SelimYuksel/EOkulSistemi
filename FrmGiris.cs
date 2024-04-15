@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SchoolProject
 {
-    public partial class Form1 : Form
+    public partial class FrmGiris : Form
     {
-        public Form1()
+        public FrmGiris()
         {
             InitializeComponent();
         }
@@ -22,6 +22,18 @@ namespace SchoolProject
             FrmOgrenciNotlar frm = new FrmOgrenciNotlar();
             frm.numara = textBox1.Text;
             frm.Show();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            FrmOgretmen frmOgretmen = new FrmOgretmen();
+            frmOgretmen.Show();
+            this.Hide();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

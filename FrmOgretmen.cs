@@ -16,5 +16,26 @@ namespace SchoolProject
         {
             InitializeComponent();
         }
+
+        private void BtnKulup_Click(object sender, EventArgs e)
+        {
+            FrmKulup frmKulup = new FrmKulup();
+            frmKulup.Show();
+
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            FrmGiris frmGiris = new FrmGiris();
+            frmGiris.Show();
+            this.Hide();
+        }
+
+        private void BtnDers_Click(object sender, EventArgs e)
+        {
+            FrmDersler frmDersler = new FrmDersler();
+            frmDersler.Show();
+            this.Hide();
+        }
     }
 }
