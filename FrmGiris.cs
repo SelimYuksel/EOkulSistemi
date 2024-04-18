@@ -47,13 +47,13 @@ namespace SchoolProject
             command.Parameters.AddWithValue("@p1", MskNo.Text);
             command.Parameters.AddWithValue("@p2", TxtSifre.Text);
             SqlDataReader dataReader = command.ExecuteReader();
-            if (dataReader.Read()) //Eğer kimlik bilgisi ve şifre, veri tabanındaki bilgilerle uyuşuyorsa
+            if (dataReader.Read()) 
             {
                 FrmOgretmen frmOgretmen = new FrmOgretmen();
                 frmOgretmen.Show();
                 this.Hide();
             }
-            else //uyuşmuyorsa
+            else 
             {
                 MessageBox.Show("Hatalı TC No ya da şifre");
             }
