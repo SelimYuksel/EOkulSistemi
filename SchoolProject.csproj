@@ -69,17 +69,41 @@
     <Compile Include="FrmKulup.Designer.cs">
       <DependentUpon>FrmKulup.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmOgrenciIslem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOgrenciIslem.Designer.cs">
+      <DependentUpon>FrmOgrenciIslem.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmOgrenciNotlar.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmOgrenciNotlar.Designer.cs">
       <DependentUpon>FrmOgrenciNotlar.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmOgrenciSifre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOgrenciSifre.Designer.cs">
+      <DependentUpon>FrmOgrenciSifre.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmOgretmen.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmOgretmen.Designer.cs">
       <DependentUpon>FrmOgretmen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOgretmenSifre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOgretmenSifre.Designer.cs">
+      <DependentUpon>FrmOgretmenSifre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSinavNotlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSinavNotlar.Designer.cs">
+      <DependentUpon>FrmSinavNotlar.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -92,11 +116,23 @@
     <EmbeddedResource Include="FrmKulup.resx">
       <DependentUpon>FrmKulup.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmOgrenciIslem.resx">
+      <DependentUpon>FrmOgrenciIslem.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmOgrenciNotlar.resx">
       <DependentUpon>FrmOgrenciNotlar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmOgrenciSifre.resx">
+      <DependentUpon>FrmOgrenciSifre.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmOgretmen.resx">
       <DependentUpon>FrmOgretmen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOgretmenSifre.resx">
+      <DependentUpon>FrmOgretmenSifre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSinavNotlar.resx">
+      <DependentUpon>FrmSinavNotlar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

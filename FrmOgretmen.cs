@@ -21,6 +21,7 @@ namespace SchoolProject
         {
             FrmKulup frmKulup = new FrmKulup();
             frmKulup.Show();
+            
 
         }
 
@@ -29,13 +30,27 @@ namespace SchoolProject
             FrmGiris frmGiris = new FrmGiris();
             frmGiris.Show();
             this.Hide();
+            
         }
 
         private void BtnDers_Click(object sender, EventArgs e)
         {
             FrmDersler frmDersler = new FrmDersler();
             frmDersler.Show();
-            this.Hide();
+            
+        }
+
+        private void BtnOgrenci_Click(object sender, EventArgs e)
+        {
+            FrmOgrenciIslem frmOgrenciIslem = new FrmOgrenciIslem();
+            frmOgrenciIslem.Show();
+            
+        }
+
+        private void BtnSinav_Click(object sender, EventArgs e)
+        {
+            FrmSinavNotlar frmSinavNotlar = new FrmSinavNotlar();
+            frmSinavNotlar.Show();
         }
     }
 }

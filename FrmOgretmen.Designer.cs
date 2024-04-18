@@ -34,16 +34,13 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.BtnKulup = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.button4 = new System.Windows.Forms.Button();
+            this.BtnSinav = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.button5 = new System.Windows.Forms.Button();
+            this.BtnOgrenci = new System.Windows.Forms.Button();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
@@ -113,51 +110,26 @@
             this.pictureBox3.TabIndex = 5;
             this.pictureBox3.TabStop = false;
             // 
-            // button3
+            // BtnSinav
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(181)))));
-            this.button3.Location = new System.Drawing.Point(134, 204);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(197, 73);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "SINAV NOTLARI";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(14, 283);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(113, 73);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 7;
-            this.pictureBox4.TabStop = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(181)))));
-            this.button4.Location = new System.Drawing.Point(134, 283);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(197, 73);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "ÖĞRETMENLER";
-            this.button4.UseVisualStyleBackColor = false;
+            this.BtnSinav.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.BtnSinav.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnSinav.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnSinav.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSinav.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(181)))));
+            this.BtnSinav.Location = new System.Drawing.Point(134, 204);
+            this.BtnSinav.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.BtnSinav.Name = "BtnSinav";
+            this.BtnSinav.Size = new System.Drawing.Size(197, 73);
+            this.BtnSinav.TabIndex = 4;
+            this.BtnSinav.Text = "SINAV NOTLARI";
+            this.BtnSinav.UseVisualStyleBackColor = false;
+            this.BtnSinav.Click += new System.EventHandler(this.BtnSinav_Click);
             // 
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(14, 362);
+            this.pictureBox5.Location = new System.Drawing.Point(14, 283);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(113, 73);
@@ -165,20 +137,21 @@
             this.pictureBox5.TabIndex = 9;
             this.pictureBox5.TabStop = false;
             // 
-            // button5
+            // BtnOgrenci
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(181)))));
-            this.button5.Location = new System.Drawing.Point(134, 362);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(197, 73);
-            this.button5.TabIndex = 8;
-            this.button5.Text = "ÖĞRENCİ İŞLEMLERİ";
-            this.button5.UseVisualStyleBackColor = false;
+            this.BtnOgrenci.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.BtnOgrenci.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnOgrenci.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnOgrenci.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnOgrenci.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(181)))));
+            this.BtnOgrenci.Location = new System.Drawing.Point(134, 283);
+            this.BtnOgrenci.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.BtnOgrenci.Name = "BtnOgrenci";
+            this.BtnOgrenci.Size = new System.Drawing.Size(197, 73);
+            this.BtnOgrenci.TabIndex = 8;
+            this.BtnOgrenci.Text = "ÖĞRENCİ İŞLEMLERİ";
+            this.BtnOgrenci.UseVisualStyleBackColor = false;
+            this.BtnOgrenci.Click += new System.EventHandler(this.BtnOgrenci_Click);
             // 
             // pictureBox6
             // 
@@ -197,14 +170,12 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.ClientSize = new System.Drawing.Size(337, 446);
+            this.ClientSize = new System.Drawing.Size(337, 365);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.BtnOgrenci);
             this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.BtnSinav);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.BtnKulup);
             this.Controls.Add(this.pictureBox1);
@@ -218,7 +189,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
@@ -232,11 +202,9 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button BtnKulup;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button BtnSinav;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button BtnOgrenci;
         private System.Windows.Forms.PictureBox pictureBox6;
     }
 }
